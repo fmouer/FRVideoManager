@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35858A121BDA81DB003CDAEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35858A111BDA81DB003CDAEA /* AppDelegate.swift */; };
+		35858A141BDA81DB003CDAEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35858A131BDA81DB003CDAEA /* ViewController.swift */; };
+		35858A171BDA81DB003CDAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35858A151BDA81DB003CDAEA /* Main.storyboard */; };
+		35858A191BDA81DB003CDAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35858A181BDA81DB003CDAEA /* Assets.xcassets */; };
+		35858A1C1BDA81DB003CDAEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35858A1A1BDA81DB003CDAEA /* LaunchScreen.storyboard */; };
+		35858A271BDA81DB003CDAEA /* FRVideoManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35858A261BDA81DB003CDAEA /* FRVideoManagerTests.swift */; };
+		35858A321BDA81DB003CDAEA /* FRVideoManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35858A311BDA81DB003CDAEA /* FRVideoManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35858A231BDA81DB003CDAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35858A061BDA81DA003CDAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35858A0D1BDA81DA003CDAEA;
+			remoteInfo = FRVideoManager;
+		};
+		35858A2E1BDA81DB003CDAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35858A061BDA81DA003CDAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35858A0D1BDA81DA003CDAEA;
+			remoteInfo = FRVideoManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35858A0E1BDA81DB003CDAEA /* FRVideoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRVideoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35858A111BDA81DB003CDAEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35858A131BDA81DB003CDAEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35858A161BDA81DB003CDAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35858A181BDA81DB003CDAEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35858A1B1BDA81DB003CDAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35858A1D1BDA81DB003CDAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35858A221BDA81DB003CDAEA /* FRVideoManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRVideoManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35858A261BDA81DB003CDAEA /* FRVideoManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRVideoManagerTests.swift; sourceTree = "<group>"; };
+		35858A281BDA81DB003CDAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35858A2D1BDA81DB003CDAEA /* FRVideoManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRVideoManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35858A311BDA81DB003CDAEA /* FRVideoManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRVideoManagerUITests.swift; sourceTree = "<group>"; };
+		35858A331BDA81DB003CDAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35858A0B1BDA81DA003CDAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35858A1F1BDA81DB003CDAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35858A2A1BDA81DB003CDAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35858A051BDA81DA003CDAEA = {
+			isa = PBXGroup;
+			children = (
+				35858A101BDA81DB003CDAEA /* FRVideoManager */,
+				35858A251BDA81DB003CDAEA /* FRVideoManagerTests */,
+				35858A301BDA81DB003CDAEA /* FRVideoManagerUITests */,
+				35858A0F1BDA81DB003CDAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35858A0F1BDA81DB003CDAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35858A0E1BDA81DB003CDAEA /* FRVideoManager.app */,
+				35858A221BDA81DB003CDAEA /* FRVideoManagerTests.xctest */,
+				35858A2D1BDA81DB003CDAEA /* FRVideoManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35858A101BDA81DB003CDAEA /* FRVideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				35858A111BDA81DB003CDAEA /* AppDelegate.swift */,
+				35858A131BDA81DB003CDAEA /* ViewController.swift */,
+				35858A151BDA81DB003CDAEA /* Main.storyboard */,
+				35858A181BDA81DB003CDAEA /* Assets.xcassets */,
+				35858A1A1BDA81DB003CDAEA /* LaunchScreen.storyboard */,
+				35858A1D1BDA81DB003CDAEA /* Info.plist */,
+			);
+			path = FRVideoManager;
+			sourceTree = "<group>";
+		};
+		35858A251BDA81DB003CDAEA /* FRVideoManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				35858A261BDA81DB003CDAEA /* FRVideoManagerTests.swift */,
+				35858A281BDA81DB003CDAEA /* Info.plist */,
+			);
+			path = FRVideoManagerTests;
+			sourceTree = "<group>";
+		};
+		35858A301BDA81DB003CDAEA /* FRVideoManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35858A311BDA81DB003CDAEA /* FRVideoManagerUITests.swift */,
+				35858A331BDA81DB003CDAEA /* Info.plist */,
+			);
+			path = FRVideoManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35858A0D1BDA81DA003CDAEA /* FRVideoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35858A361BDA81DB003CDAEA /* Build configuration list for PBXNativeTarget "FRVideoManager" */;
+			buildPhases = (
+				35858A0A1BDA81DA003CDAEA /* Sources */,
+				35858A0B1BDA81DA003CDAEA /* Frameworks */,
+				35858A0C1BDA81DA003CDAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRVideoManager;
+			productName = FRVideoManager;
+			productReference = 35858A0E1BDA81DB003CDAEA /* FRVideoManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35858A211BDA81DB003CDAEA /* FRVideoManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35858A391BDA81DB003CDAEA /* Build configuration list for PBXNativeTarget "FRVideoManagerTests" */;
+			buildPhases = (
+				35858A1E1BDA81DB003CDAEA /* Sources */,
+				35858A1F1BDA81DB003CDAEA /* Frameworks */,
+				35858A201BDA81DB003CDAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35858A241BDA81DB003CDAEA /* PBXTargetDependency */,
+			);
+			name = FRVideoManagerTests;
+			productName = FRVideoManagerTests;
+			productReference = 35858A221BDA81DB003CDAEA /* FRVideoManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35858A2C1BDA81DB003CDAEA /* FRVideoManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35858A3C1BDA81DB003CDAEA /* Build configuration list for PBXNativeTarget "FRVideoManagerUITests" */;
+			buildPhases = (
+				35858A291BDA81DB003CDAEA /* Sources */,
+				35858A2A1BDA81DB003CDAEA /* Frameworks */,
+				35858A2B1BDA81DB003CDAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35858A2F1BDA81DB003CDAEA /* PBXTargetDependency */,
+			);
+			name = FRVideoManagerUITests;
+			productName = FRVideoManagerUITests;
+			productReference = 35858A2D1BDA81DB003CDAEA /* FRVideoManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35858A061BDA81DA003CDAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = fmouer;
+				TargetAttributes = {
+					35858A0D1BDA81DA003CDAEA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					35858A211BDA81DB003CDAEA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 35858A0D1BDA81DA003CDAEA;
+					};
+					35858A2C1BDA81DB003CDAEA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 35858A0D1BDA81DA003CDAEA;
+					};
+				};
+			};
+			buildConfigurationList = 35858A091BDA81DA003CDAEA /* Build configuration list for PBXProject "FRVideoManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35858A051BDA81DA003CDAEA;
+			productRefGroup = 35858A0F1BDA81DB003CDAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35858A0D1BDA81DA003CDAEA /* FRVideoManager */,
+				35858A211BDA81DB003CDAEA /* FRVideoManagerTests */,
+				35858A2C1BDA81DB003CDAEA /* FRVideoManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35858A0C1BDA81DA003CDAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35858A1C1BDA81DB003CDAEA /* LaunchScreen.storyboard in Resources */,
+				35858A191BDA81DB003CDAEA /* Assets.xcassets in Resources */,
+				35858A171BDA81DB003CDAEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35858A201BDA81DB003CDAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35858A2B1BDA81DB003CDAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35858A0A1BDA81DA003CDAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35858A141BDA81DB003CDAEA /* ViewController.swift in Sources */,
+				35858A121BDA81DB003CDAEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35858A1E1BDA81DB003CDAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35858A271BDA81DB003CDAEA /* FRVideoManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35858A291BDA81DB003CDAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35858A321BDA81DB003CDAEA /* FRVideoManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35858A241BDA81DB003CDAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35858A0D1BDA81DA003CDAEA /* FRVideoManager */;
+			targetProxy = 35858A231BDA81DB003CDAEA /* PBXContainerItemProxy */;
+		};
+		35858A2F1BDA81DB003CDAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35858A0D1BDA81DA003CDAEA /* FRVideoManager */;
+			targetProxy = 35858A2E1BDA81DB003CDAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35858A151BDA81DB003CDAEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35858A161BDA81DB003CDAEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35858A1A1BDA81DB003CDAEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35858A1B1BDA81DB003CDAEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35858A341BDA81DB003CDAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35858A351BDA81DB003CDAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35858A371BDA81DB003CDAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRVideoManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmouer.FRVideoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35858A381BDA81DB003CDAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRVideoManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmouer.FRVideoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		35858A3A1BDA81DB003CDAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FRVideoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmouer.FRVideoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRVideoManager.app/FRVideoManager";
+			};
+			name = Debug;
+		};
+		35858A3B1BDA81DB003CDAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FRVideoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmouer.FRVideoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRVideoManager.app/FRVideoManager";
+			};
+			name = Release;
+		};
+		35858A3D1BDA81DB003CDAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FRVideoManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmouer.FRVideoManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FRVideoManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		35858A3E1BDA81DB003CDAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FRVideoManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmouer.FRVideoManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FRVideoManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35858A091BDA81DA003CDAEA /* Build configuration list for PBXProject "FRVideoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35858A341BDA81DB003CDAEA /* Debug */,
+				35858A351BDA81DB003CDAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35858A361BDA81DB003CDAEA /* Build configuration list for PBXNativeTarget "FRVideoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35858A371BDA81DB003CDAEA /* Debug */,
+				35858A381BDA81DB003CDAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35858A391BDA81DB003CDAEA /* Build configuration list for PBXNativeTarget "FRVideoManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35858A3A1BDA81DB003CDAEA /* Debug */,
+				35858A3B1BDA81DB003CDAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35858A3C1BDA81DB003CDAEA /* Build configuration list for PBXNativeTarget "FRVideoManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35858A3D1BDA81DB003CDAEA /* Debug */,
+				35858A3E1BDA81DB003CDAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35858A061BDA81DA003CDAEA /* Project object */;
+}
